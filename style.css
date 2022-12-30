@@ -1,0 +1,135 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.landing_page{
+    padding: 80px;
+    background-color: black;
+    width: 100%;
+    color: white;
+    height: auto;
+}
+.heading_and_image{
+    display: flex;
+justify-content: space-between;
+}
+.heading{
+    animation-name: changecolor;
+    animation-duration: 10s;
+    animation-delay: 1s;
+}
+@keyframes changecolor{
+    0%{
+        color: rgb(250, 112, 62);
+    }
+    25%{
+        color: rgb(178, 240, 46);
+    }
+    50%{
+        color: rgb(88, 243, 204);
+    }
+    75%{
+        color: rgb(95, 36, 245);
+    }
+    100%{
+        color: rgb(239, 2, 152);
+    }
+}
+.heading h1{
+    font-size: 150px;
+    font-weight: bold;
+  }
+.image{
+    position: relative;
+    top: 313px;
+  }
+.image img{
+    height: 200px;
+    width: 400px;
+}
+.arrow_down{
+    display: block;
+text-align: center;
+font-size: 60px;
+}
+.arrow_down a{
+    color: white;
+}
+.about_us{
+    display: flex;
+    padding: 80px;
+    justify-content: space-between;
+}
+.about_us img{
+    height: 500px;
+    width: 500px;
+}
+.about_us_image{
+    height: 500px;
+    width: 500px;
+}
+.content{
+    height: 500px;
+    width: 700px;
+}
+.content h1{
+    font-size: 90px;
+font-weight: 600;
+color: black;
+margin-bottom: 40px;
+}
+.our-services{
+    width: 100%;
+    height: 700px;
+    padding: 80px;
+    overflow: auto;
+}
+.services-heading{
+    font-size: 80px;
+    font-weight: 600;
+    padding-bottom: 60px;
+}
+.services{
+    margin: 0px 20px;
+    padding: 30px;
+}
+.services:hover{
+    background-color: black;
+    color: white;
+    transition-delay: 0.3s;
+}
+
+.card-head{
+    margin-bottom: 25px;
+}
+.contact_us{
+    text-align: center;
+padding: 30px;
+width: 100%;
+height: auto;
+}
+.footer_heading{
+    font-size: 80px;
+    padding: 20px;
+}
+.form{
+    width: auto;
+    height: 430px;
+    text-align: left;
+    padding: 30px 50px;
+margin:20px 40px;
+}
+.form .input{
+    padding: 10px;
+    margin: 10px;
+    background-color: black;
+    color: white;
+    width: 1200px;
+}
+.submit{
+    padding: 10px;
+    margin: 10px;
+    background-color:white;
+    color: black;
+    width: 300px;
+}
